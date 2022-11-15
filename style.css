@@ -39,10 +39,10 @@ img{
 .title{
     background-color: darkblue;
     margin-top: 80px;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding-left: -30px;
-    padding-right: -30px;
+    margin-left: 620px;
+    margin-right: 620px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     border-radius: 5px;
 }
