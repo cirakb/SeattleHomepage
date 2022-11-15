@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    display: flexbox;
+    flex-direction: row;
+}
+
+.hero{
+    margin-top: -60px;
+    background-image: url("Screen\ Shot\ 2022-11-15\ at\ 10.33.15\ AM.png");
+    height: 190px;
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.activity{
+    margin-top: 0px;
+    padding-top: 1px;
+    background-color: beige;
+    padding-bottom: 50px;
+}
+
+.guide{
+    margin-top: 0px; 
+    padding-top: 1px;
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+#list-title{
+    margin: 25px;
+}
+
+.title{
+    background-color: darkblue;
+    margin-top: 80px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-left: -30px;
+    padding-right: -30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.caption{
+    margin-top: -5px;
+    background-color: darkblue;
+    margin-left: 475px;
+    margin-right: 475px;
+    margin-bottom: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.seahawks{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.gas-works{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.space-needle{
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card{
+    margin-top: 30px;
+    width: 600px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 4px solid black;
+    background-color: lightblue;
+}
+
+.seahawks-game{
+    color: blue;
+    font-weight: bold;
+}
+
+.park{
+    color: blue;
+    font-weight: bold;
+}
+
+.needle{
+    color: blue;
+    font-weight: bold;
+}
